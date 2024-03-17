@@ -723,7 +723,7 @@ function downloadObjectAsJson(exportObj, exportName){
 
 
 addEventListener("DOMContentLoaded", (ev) => {
-    fetch("./Mind map.json")
+    fetch("Mind Map.json")
         .then(response => response.json())
         .then(data => {
             loadData(data);
